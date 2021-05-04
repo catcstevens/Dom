@@ -9,26 +9,25 @@
 </head>
 <body class='bg-blue-200'>
     <div class='box-content h-100 w-100'>
-        <header class='flex justify-center text-red-900 text-4xl border-4'>To Do</header>
+        <header id='header-title' class='flex justify-center text-red-900 text-4xl border-4'>To Do</header>
     </div>
         <div class='flex justify-center p-10'>
-        
-            <div class='box-content h-60 w-72 p-4 border-4'>
+            <div id='main' class='container p-4 border-4'>
                 <h2 class='title'>Add Items</h2>
                 <form>
-                    <input type='text'>
-                    <button class="bg-transparent hover:bg-blue text-white font-semibold hover:text-red-900 py-2 px-4 border border-red-900 hover:border-transparent rounded mr-2">Submit</button>
+                    <input type='text' class='p-2'>
+                    <button class="bg-transparent hover:bg-white text-white font-semibold hover:text-red-900 py-2 px-4 border border-red-900 hover:border-transparent rounded mr-2">Submit</button>
                 </form>
-                <ul class='text-red-900 text-m'> 
-                    <li>one</li>
-                    <li>two</li>
-                    <li>three</li>
-                    <li>four</li>
-                    <li>five</li>
-                    <li>six</li>
+                <ul id='items' class='text-red-900 text-l border-4'> 
+                    <li class='list-group-item'>Item one</li>
+                    <li class='list-group-item'>Item two</li>
+                    <li class='list-group-item'>Item three</li>
+                    <li class='list-group-item'>Item four</li>
+                    <li class='list-group-item'>Item five</li>
+                    <li class='list-group-item'>Item six</li>
                 </ul> 
-        </div>
-    </div>
-   
+            </div>
+        </div> 
+        <script src="main.js" type="module"></script>
 </body>
 </html>
