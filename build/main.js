@@ -8,3 +8,11 @@
 
 let headerTitle = document.getElementById('header-title');
 console.log(headerTitle.innerText);
+
+//QuerySelector - only one item(grabs the first one)
+let header = document.querySelector('#main-box');
+header.style.borderBottom = 'solid 4px #ccc';
+
+let input = document.querySelector('input');
+input.value = 'Hello World'
+
