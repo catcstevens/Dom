@@ -12,13 +12,13 @@
         <header id='header-title' class='flex justify-center text-red-900 text-4xl border-4'>To Do</header>
     </div>
         <div class='flex justify-center p-10'>
-            <div id='main' class='container p-4 border-4'>
-                <h2 class='title'>Add Items</h2>
+            <div id='main' class='container p-4 border-4 bg-gray-100'>
+                <h2 class='title text-red-900'>Add Items</h2>
                 <form>
                     <input type='text' class='p-2'>
-                    <button class="bg-transparent hover:bg-white text-white font-semibold hover:text-red-900 py-2 px-4 border border-red-900 hover:border-transparent rounded mr-2">Submit</button>
+                    <button class="bg-red-900 hover:bg-white text-white font-semibold hover:text-red-900 py-2 px-4 border border-red-900 hover:border-transparent rounded mr-2 ">Submit</button>
                 </form>
-                <ul id='items' class='text-red-900 text-l border-4'> 
+                <ul id='items' class='text-red-900 text-l border-4 p-2'> 
                     <li class='list-group-item'>Item one</li>
                     <li class='list-group-item'>Item two</li>
                     <li class='list-group-item'>Item three</li>
@@ -26,6 +26,8 @@
                     <li class='list-group-item'>Item five</li>
                     <li class='list-group-item'>Item six</li>
                 </ul> 
+                <br>
+                <button id="button" class="bg-transparent hover:bg-white text-white font-semibold hover:text-red-900 py-2 px-4 border border-red-900 hover:border-transparent rounded mr-2">Submit</button>
             </div>
         </div> 
         <script src="main.js" type="module"></script>

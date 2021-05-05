@@ -13,6 +13,15 @@ console.log(headerTitle.innerText);
 let header = document.querySelector('#main-box');
 header.style.borderBottom = 'solid 4px #ccc';
 
-let input = document.querySelector('input');
-input.value = 'Hello World'
 
+
+let odd = document.querySelectorAll('li:nth-child(odd)');
+for (let i = 0; i < odd.length; i++){
+    odd[i].style.backgroundColor = '#D1D5DB';
+}
+
+let button = document.getElementById('button').addEventListener('click', buttonClick)
+
+function buttonClick(e){
+
+}
